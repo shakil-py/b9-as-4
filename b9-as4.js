@@ -25,7 +25,7 @@
 
 
 function deleteInvalid(arry) {
-    console.log(typeof (arry))
+    
     if (typeof (arry) === "Arry") {
         return "Invalid Arry"
     }
@@ -45,5 +45,5 @@ function deleteInvalid(arry) {
     return new_arry
 };
 
-console.log(deleteInvalid([1, 2, 3, NaN, "hi", 2, 3]))
+console.log(deleteInvalid({Number:[1,2,3,4]}))
 
