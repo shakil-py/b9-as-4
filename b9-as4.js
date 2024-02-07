@@ -24,8 +24,8 @@
 // };
 
 
-function deleteInvalids(arry) {
-    console.log(typeof(arry))
+function deleteInvalid(arry) {
+    console.log(typeof (arry))
     if (typeof (arry) === "Arry") {
         return "Invalid Arry"
     }
@@ -33,14 +33,17 @@ function deleteInvalids(arry) {
     for (i = 0; i < arry.length; i++) {
 
         let check_value = arry[i];
+        console.log(typeof (check_value))
 
         if (typeof (check_value) === "number") {
             new_arry.push(check_value);
 
         }
+
+
     }
     return new_arry
 };
 
-console.log(deleteInvalids([1, 2, 3,NaN,"hi", 2, 3]))
+console.log(deleteInvalid([1, 2, 3, NaN, "hi", 2, 3]))
 
