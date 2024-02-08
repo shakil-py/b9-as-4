@@ -24,26 +24,41 @@
 // };
 
 
-function deleteInvalid(arry) {
-    
-    if (typeof (arry) === "Arry") {
-        return "Invalid Arry"
+// function deleteInvalid(arry) {
+
+//     if (typeof (arry) === "Arry") {
+//         return "Invalid Arry"
+//     }
+//     let new_arry = [];
+//     for (i = 0; i < arry.length; i++) {
+
+//         let check_value = arry[i];
+//         console.log(typeof (check_value))
+
+//         if (typeof (check_value) === "number") {
+//             new_arry.push(check_value);
+
+//         }
+
+
+//     }
+//     return new_arry
+// };
+
+// console.log(deleteInvalid({Number:[1,2,3,4]}))
+
+function password(object) {
+    let value1 = object["name".toLowerCase()];
+    let value2 = object["birthdate".toLowerCase()]
+    let value3 = object["sitename".toLowerCase()]
+
+    if (typeof (object) !== "object"||value2.length<4) {
+        return "Invalid object"
     }
-    let new_arry = [];
-    for (i = 0; i < arry.length; i++) {
-
-        let check_value = arry[i];
-        console.log(typeof (check_value))
-
-        if (typeof (check_value) === "number") {
-            new_arry.push(check_value);
-
-        }
-
-
+    else {
+        
+        let stpass = value1.toUpperCase() + "#" + value2 + "@" + value3
+        return stpass
     }
-    return new_arry
-};
-
-console.log(deleteInvalid({Number:[1,2,3,4]}))
+}
 
