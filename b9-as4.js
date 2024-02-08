@@ -24,26 +24,26 @@
 // };
 
 
-function deleteInvalid(arry) {
+// function deleteInvalid(arry) {
     
-    if (typeof (arry) === "Arry") {
-        return "Invalid Arry"
-    }
-    let new_arry = [];
-    for (i = 0; i < arry.length; i++) {
+//     if (typeof (arry) === "Arry") {
+//         return "Invalid Arry"
+//     }
+//     let new_arry = [];
+//     for (i = 0; i < arry.length; i++) {
 
-        let check_value = arry[i];
-        console.log(typeof (check_value))
+//         let check_value = arry[i];
+//         console.log(typeof (check_value))
 
-        if (typeof (check_value) === "number") {
-            new_arry.push(check_value);
+//         if (typeof (check_value) === "number") {
+//             new_arry.push(check_value);
 
-        }
+//         }
 
 
-    }
-    return new_arry
-};
+//     }
+//     return new_arry
+// };
 
-console.log(deleteInvalid({Number:[1,2,3,4]}))
+// console.log(deleteInvalid({Number:[1,2,3,4]}));
 
