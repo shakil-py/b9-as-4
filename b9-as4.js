@@ -25,7 +25,11 @@
 
 
 // function deleteInvalid(arry) {
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> f812c8584f11191085610ba219b2533a9f7a8875
 //     if (typeof (arry) === "Arry") {
 //         return "Invalid Arry"
 //     }
@@ -45,6 +49,7 @@
 //     return new_arry
 // };
 
+<<<<<<< HEAD
 // console.log(deleteInvalid({Number:[1,2,3,4]}))
 
 function password(object) {
@@ -61,4 +66,7 @@ function password(object) {
         return stpass
     }
 }
+=======
+// console.log(deleteInvalid({Number:[1,2,3,4]}));
+>>>>>>> f812c8584f11191085610ba219b2533a9f7a8875
 
