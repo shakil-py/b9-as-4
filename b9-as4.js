@@ -25,11 +25,6 @@
 
 
 // function deleteInvalid(arry) {
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> f812c8584f11191085610ba219b2533a9f7a8875
 //     if (typeof (arry) === "Arry") {
 //         return "Invalid Arry"
 //     }
@@ -49,7 +44,6 @@
 //     return new_arry
 // };
 
-<<<<<<< HEAD
 // console.log(deleteInvalid({Number:[1,2,3,4]}))
 
 function password(object) {
@@ -57,16 +51,13 @@ function password(object) {
     let value2 = object["birthdate".toLowerCase()]
     let value3 = object["sitename".toLowerCase()]
 
-    if (typeof (object) !== "object"||value2.length<4) {
+    if (typeof (object) !== "object" || value2.length < 4) {
         return "Invalid object"
     }
     else {
-        
+
         let stpass = value1.toUpperCase() + "#" + value2 + "@" + value3
         return stpass
     }
 }
-=======
-// console.log(deleteInvalid({Number:[1,2,3,4]}));
->>>>>>> f812c8584f11191085610ba219b2533a9f7a8875
 
